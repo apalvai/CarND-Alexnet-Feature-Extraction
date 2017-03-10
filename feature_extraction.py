@@ -50,3 +50,5 @@ for input_im_ind in range(output.shape[0]):
     print()
 
 print("Time: %.3f seconds" % (time.time() - t))
+
+sess.close()
